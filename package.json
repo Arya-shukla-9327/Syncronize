@@ -1,0 +1,17 @@
+{
+  "name": "syna-esports-backend",
+  "version": "1.0.0",
+  "description": "Syna Esports Server for Render Deployment",
+  "main": "server-backend/index.js",
+  "scripts": {
+    "start": "node server-backend/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
